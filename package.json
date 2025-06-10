@@ -60,6 +60,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+  "esbuild": "0.25.4",
     "@chromatic-com/storybook": "^4.0.0",
     "@graphql-codegen/cli": "^5.0.0",
     "@graphql-codegen/client-preset": "^4.1.0",

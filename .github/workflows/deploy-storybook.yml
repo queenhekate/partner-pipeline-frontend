@@ -18,7 +18,10 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version:
+            16
+      # Clear cached dependencies
+      - run: rm -rf node_modules package-lock.json
       - run: npm install
       - run: npm run build-storybook
 
